@@ -13,7 +13,7 @@ Link_t *Whitelist_head = NULL;
 Link_t *Ban_head = NULL;
 pthread_mutex_t lock;
 dlfcn func=NULL;
-const char *Whitelist_file = "whitelist.txt";
+const char *Whitelist_file = "https://getip.juziboost.cn/whitelist.txt";
 const char *Banlist_file = "banned-players.txt";
 char Whitelist_switch = OFF;
 int CL_EnableWhiteList();
